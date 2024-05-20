@@ -1,0 +1,511 @@
+html,
+body,
+main {
+  color: rgb(247 247 247 /70%);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#agreement {
+  overflow-y: auto;
+}
+
+/* side panel background */
+.bg-opaque-white {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* fix height of right panel */
+.box-shadow-info {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+}
+
+
+a {
+  color: rgb(247 247 247 /80%);
+}
+
+a:hover {
+  color: rgb(247 247 247 /95%);
+  pointer-events: auto;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: x-large;
+  text-indent: 0.5em;
+
+}
+
+.fa {
+  /* padding: 20px; */
+  font-size: large;
+  width: 50px;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.logo {
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.attribution p {
+  /* font-size: small; */
+  /* margin-top: 70px; */
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  text-indent: 0 !important;
+  /* text-align: center !important; */
+  color: rgb(247 247 247 /70%);
+}
+
+
+.simplebar-content-wrapper {
+  /* overflow: auto; */
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+  /* background-image: linear-gradient(#2EAAFA, #8C04DB); */
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  height:300px;
+}
+
+
+.ml-auto,
+.mx-auto {
+  margin-left: 0 !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+/* main window */
+.grid-container {
+  height: 100vh;
+  min-width: 1024px;
+  padding: 10px;
+  /* padding-top: 66px; */
+  background-color: #121212;
+  display: grid;
+}
+
+.grid-box {
+  background-color: #343a40;
+  border-radius: 2px;
+  text-align: center;
+  /* margin-bottom: 5rem; */
+}
+
+/* About Page CSS */
+.about-main-content {
+  /* padding-top: 2em; */
+  padding-bottom: 15em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: left;
+}
+
+.about-main-content p {
+  /* text-indent: 1em; */
+  text-align: justify;
+  font-size: medium;
+ 
+}
+
+.about-main-content h2 {
+  font-size:x-large;
+  text-align:left;
+  margin-top: 1.5em;
+  /* margin-bottom: 1em; */
+}
+
+.about-main-content table {
+  /* text-indent: 1em; */
+  text-align: justify;
+  font-size: medium;
+  font-size: small;
+ 
+}
+
+.about-main-content figure {
+  /* text-indent: 1em; */
+  /* text-align: justify; */
+  text-align: center;
+  font-size: medium;
+  font-size: small;
+ 
+}
+
+.about-main-content > div {
+  margin-top: 2em;
+}
+
+.about-main-content > div > div {
+  margin-bottom: 1em !important;
+}
+
+.about-main-content h5 {
+  margin-bottom: .5em !important;
+}
+p.small {
+
+  font-size:small;
+  text-align: center;
+}
+
+
+.box-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-social-link {
+  /* width: 30px;
+  height: 30px; */
+  /* border: 1px solid #ddd; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  transition: all 0.3s;
+  padding: 0.5rem;
+  /* font-size: 0.9rem; */
+}
+
+.about-social-link > i {
+font-size: 1.5rem;
+color: rgb(247 247 247 /70%);
+}
+
+
+#about-contact {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 40px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.mb-0 {
+  color: rgb(247 247 247 /70%);
+}
+
+/* css for the resource page */
+.re-container {
+  padding: 20px;
+}
+
+.external-re {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.re-flex-item {
+  text-align: left;
+  padding: 10px;
+  width: 438px;
+  margin-bottom: 20px;
+}
+
+.re-table {
+  border-collapse: collapse;
+  width: 100vw;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  /*border: 1px solid #dddddd;*/
+  text-align: left;
+  padding: 2px;
+}
+
+.re-table th {
+  font-size: x-large;
+}
+
+/*methodology page
+  Please use 'mtd' as prefix
+  */
+.mtd-main-content {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: left;
+}
+
+.mtd-main-content p {
+  text-indent: 1em;
+}
+
+/* resource page css*/
+.resource-container {
+  padding-top: 15px;
+  padding-left: 18px;
+  height: 100vh;
+  background-color: #343a40;
+  margin: 20px;
+  margin-top: 9vh;
+}
+
+.resource-main-content {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: left;
+}
+
+.resource-main-content p {
+  text-indent: 1em;
+}
+
+/* ocp risk table */
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-nltl {
+  background-color: #f56b00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-cxgh {
+  background-color: #ffcb2f;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-0lax {
+  text-align: left;
+  vertical-align: top;
+  color: white
+}
+
+.tg .tg-7dil {
+  background-color: #009901;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-fd62 {
+  background-color: #32cb00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg .tg-s7ni {
+  background-color: #f8ff00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg tbody {
+  color: black;
+}
+
+/* unemp risk table */
+.tg-unemp {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%
+}
+
+.tg-unemp td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg-unemp th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg-unemp .tg-unemp-nltl {
+  background-color: #f56b00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg-unemp .tg-unemp-cxgh {
+  background-color: #ffcb2f;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg-unemp .tg-unemp-0lax {
+  text-align: left;
+  vertical-align: top;
+  color: white
+}
+
+.tg-unemp .tg-unemp-7dil {
+  background-color: #009901;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg-unemp .tg-unemp-fd62 {
+  background-color: #32cb00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg-unemp .tg-unemp-s7ni {
+  background-color: #f8ff00;
+  text-align: left;
+  vertical-align: top
+}
+
+.tg-unemp tbody {
+  color: black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: rgb(247 247 247 /70%);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsed, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: #212529;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsed:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/* Style for dropdown menu */
+
+.navbar-dark .navbar-nav .nav-link .dropdown-menu{
+  color: white;
+}
+.nav-item:hover .dropdown-menu {
+display: block;
+}
+
+.dropdown-menu {
+display: none;
+position: absolute;
+z-index: 1000;
+}
