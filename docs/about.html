@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shifting LGBTQ+ Spaces</title>
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo.png">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- external CSS & js -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font awesome kit -->
+  <!-- <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script> -->
+
+
+  <link rel="stylesheet" href="css/simplebar.css" />
+  <link href="css/common.css" rel='stylesheet' />
+  <link rel='stylesheet' href="css/pages.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <!-- bootstrap 5.1 is required for the overall structure of the platform -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+  <script src="js/simplebar.min.js"></script>
+
+
+
+  <!-- Promise polyfill script is required -->
+  <!-- to use MapBox GL Geocoder in IE 11. -->
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/CQUST.png" alt="">
+
+      </a>
+
+      <div id="navbar-tabs">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="data.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="methodology.html">Design & Methodology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ethics.html">Ethics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" target="_blank"
+            <a class="nav-link active" data-intro="submit your feedback of your comments to this platform." data-step="1" target="_blank" href="feedback.html">Feedback</a>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhgis.uw.edu%2Fvgi&amp;src=sdkpreparse"
+              class="nav-link bi bi-facebook active" aria-current="page"></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/intent/tweet?url=https://hgis.uw.edu/covid19-workers/&text=Check out this geospatial platform that allow local experts to contribution data about lgbtgq spaces."
+              class="nav-link bi bi-twitter active" aria-current="page"></a>
+          </li> -->
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+
+    <div data-simplebar data-simplebar-auto-hide="false" class="grid-container">
+      <div class="grid-box">
+        <div class="box-container">
+          <div class="about-main-content">
+            <!-- <img class="border border-secondary" style="float:right; margin-left: 20px"
+                          src="assets\screenshot.png" alt="dashboard overview" width="700px"> -->
+            <h2>项目概述 Project Overview</h2>
+            <p>研究区位于中国重庆市巫山县，特殊的地理条件使该地以“脆李经济”为主。开展与脆李相关的活动，是提高社会和领土凝聚力的重要方式，是三峡移民安居乐业的重要工具。
+              依托项目分析土壤样本并进行了土地质量地质调查，本项目在此基础上，通过建立脆李适生模型和分析土壤元素的空间非均质分布，利用python sklearn库中的常见的机器学习方法和编程实现多种插值试验，同时对数据进行元素间相关系数的计算，并绘制其热力图，最终划定脆李种植区。
+              为了进一步开展定性研究，我们设置了五个社会影响力因素，通过相关性分析仔细验证，证明了该研究方案具备一定可靠性。在研究过程中，我们反思了GIS数据的缺失问题。这种数据不平等现象主要表现为：高分辨率卫星影像的缺乏严重影响了遥感数据的有效性，这对地物识别和土地分类带来了困难；数据格式和来源的不一致性增加了数据整合的难度，限制了分析结果的可靠性和应用范围。同时，前人对农村空间单元的研究缺乏系统性，导致数据不充足、数据来源不清晰、数据格式不一致等问题，给本研究带来了局限性。为了解决这些问题，我们设计了一个线上参与式地图，聚焦巫山脆李种植区，提供一个便捷的平台，鼓励当地居民和游客进行标记和数据上传，用于地理可视化。这一实践不仅能增强当地社区对自身环境的理解和管理能力，也为数据收集提供了更多元化的视角和更多的途径。
+              本项目特别关注了不同身份数据标记者在数据收集和处理过程中的经验差异，发现其在数据准确性、完整性和可靠性方面存在显著差异。这一发现强调了在数据标记和分析过程中引入多样化背景和经验的重要性。通过公共参与GIS（PGIS）的方法，积极鼓励公众参与地图制作和地理信息系统的使用，不仅提高了数据的全面性和代表性，也增强了社区的凝聚力。
+              本研究立足于社会批判理论，从“以人为本”的逻辑出发，对GIS数据采集不平等、乡村数据缺失等现象进行了批判分析。这种不平等现象不仅限制了GIS技术在乡村地区的应用，也在一定程度上加剧了城乡之间的数字鸿沟。通过对巫山县脆李农业的研究，我们希望提供一种新的农村空间研究思路，承前启后，呼吁更多学者关注以上问题。我们的研究不仅丰富了人本主义地理信息科学（Humanistic GIS）的理论框架，也为乡村数据收集和处理提供了新的方法和视角。
+              综上所述，本研究通过对重庆市巫山县脆李农业的空间和社会经济维度进行深入分析，揭示了当前数据质量和可获取性的问题。我们希望通过进一步的研究和实践，在数据应用的公平性和有效性方面取得更大进展。这不仅为未来的研究提供了参考，也呼吁学术界更加关注农村数据问题，推动更全面和系统的研究。
+              
+            </p>
+        
+        </div>
+
+
+
+        </div>
+      </div>
+  </main>
+  <script src="js/about.js"></script>
+</body>
+
+</html>
